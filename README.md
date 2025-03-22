@@ -26,3 +26,10 @@
     - Compute `color_histogram` (bins=16) and `euclidean_distance` for pairs (1-2, 1-3, 2-3).
     - Repeat with luminance images, compute histograms and distances (bins=16), compare results in code comments.
     - Visualize three color images and their luminance versions.
+    
+# Project Overview
+
+## Image Editing and Meme Creation Tool
+- **Description**: A Python-based tool for editing images and generating memes. Features interactive filter application (e.g., blur, sharpen, grayscale) and meme overlays on detected facial features (face, eyes, mouth, etc.) using OpenCV’s Haar cascades. Supports saving, loading, and managing images/memes with a simple command-line interface.
+- **Purpose**: Designed for quick image manipulation and humorous meme creation with customizable filters and text.
+- **Tech**: Built with Python, OpenCV, NumPy, Matplotlib, and PIL.
